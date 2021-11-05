@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+}
+.truncating p {
+  margin: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  width: 300px;
+}
+.relative-length-units {
+  font-size: 24px;
+}
+.relative-length-units .header {
+  background-color: brown;
+  color: white;
+  font-size: 2em;
+  padding: 1em 2rem;
+}
+.relative-length-units .content {
+  font-size: 2rem;
+  padding: 1em 2rem;
+}
